@@ -5116,7 +5116,7 @@
         "DHIS2Version": "2.36.12",
         "code": "NCD_HTN",
         "description": "Hypertension Registry",
-        "lastUpdated": "20220923T162607",
+        "lastUpdated": "20220923T180438",
         "locale": "en",
         "name": "NCD_HTN_TRK_DHIS2.36.12-en",
         "type": "TRK",
@@ -7071,33 +7071,6 @@
         },
         {
             "attributeValues": [],
-            "data": "'Underweight'",
-            "dataElement": {
-                "id": "Jxc6EbJ0PN8"
-            },
-            "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
-            ],
-            "evaluationTime": "ALWAYS",
-            "externalAccess": false,
-            "favorite": false,
-            "id": "jGV4YMdE6L9",
-            "programRule": {
-                "id": "mUxIEpv28tG"
-            },
-            "programRuleActionType": "ASSIGN",
-            "sharing": {
-                "external": false,
-                "userGroups": {},
-                "users": {}
-            },
-            "translations": [],
-            "userAccesses": [],
-            "userGroupAccesses": []
-        },
-        {
-            "attributeValues": [],
             "content": "!! Date of Birth Is Out Of Age Range !! Please check Age is between 10-140 years.",
             "displayContent": "!! Date of Birth Is Out Of Age Range !! Please check Age is between 10-140 years.",
             "evaluationEnvironments": [
@@ -7385,6 +7358,33 @@
             "id": "VyIA1GJe1a4",
             "programRule": {
                 "id": "Q3sHLDE78C9"
+            },
+            "programRuleActionType": "ASSIGN",
+            "sharing": {
+                "external": false,
+                "userGroups": {},
+                "users": {}
+            },
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+        },
+        {
+            "attributeValues": [],
+            "data": "'Underweight'",
+            "dataElement": {
+                "id": "Jxc6EbJ0PN8"
+            },
+            "evaluationEnvironments": [
+                "WEB",
+                "ANDROID"
+            ],
+            "evaluationTime": "ALWAYS",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "xmdr8tP6jXh",
+            "programRule": {
+                "id": "mUxIEpv28tG"
             },
             "programRuleActionType": "ASSIGN",
             "sharing": {
@@ -8018,7 +8018,7 @@
         },
         {
             "attributeValues": [],
-            "condition": "d2:hasValue( 'height' ) && d2:hasValue( 'weight') && #{bmiCalculated} <18.5",
+            "condition": "d2:hasValue( 'height' ) && d2:hasValue( 'weight') && #{bmiCalculated} <18.5 &&  #{bmiCalculated} > 0",
             "description": "If Weight and Height are inputted then calculate the BMI and assign underweight ",
             "externalAccess": false,
             "favorite": false,
@@ -8029,7 +8029,7 @@
             },
             "programRuleActions": [
                 {
-                    "id": "jGV4YMdE6L9"
+                    "id": "xmdr8tP6jXh"
                 }
             ],
             "programStage": {
