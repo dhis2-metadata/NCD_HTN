@@ -5116,7 +5116,7 @@
         "DHIS2Version": "2.36.12",
         "code": "NCD_HTN",
         "description": "Hypertension Registry",
-        "lastUpdated": "20220923T105147",
+        "lastUpdated": "20220923T162607",
         "locale": "en",
         "name": "NCD_HTN_TRK_DHIS2.36.12-en",
         "type": "TRK",
@@ -5136,13 +5136,13 @@
                     "id": "qDVxzO0Ilkq"
                 },
                 {
-                    "id": "nJq8IMv65H7"
-                },
-                {
                     "id": "wodvj4fzKEH"
                 },
                 {
                     "id": "IsHB0SRSa0M"
+                },
+                {
+                    "id": "nJq8IMv65H7"
                 }
             ],
             "publicAccess": "rw------",
@@ -5571,14 +5571,15 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "nAc5J56pI5S",
+                    "id": "Sn12g6mCpsc",
                     "offsetPeriodType": "Quarterly",
+                    "offsetPeriods": -1,
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -5589,15 +5590,14 @@
                     "userGroupAccesses": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "Sn12g6mCpsc",
+                    "id": "nAc5J56pI5S",
                     "offsetPeriodType": "Quarterly",
-                    "offsetPeriods": -1,
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -5848,13 +5848,15 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "vhK6vhJRxiD",
+                    "id": "OIfwrUKmjqb",
+                    "offsetPeriodType": "Quarterly",
+                    "offsetPeriods": -1,
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -5865,15 +5867,13 @@
                     "userGroupAccesses": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "OIfwrUKmjqb",
-                    "offsetPeriodType": "Quarterly",
-                    "offsetPeriods": -1,
+                    "id": "vhK6vhJRxiD",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -6051,15 +6051,14 @@
                     "userGroupAccesses": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "EVENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "iFRv555boYF",
-                    "offsetPeriodType": "Monthly",
-                    "offsetPeriods": -3,
+                    "id": "UghLXVwT6jb",
+                    "offsetPeriods": 0,
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -6070,14 +6069,15 @@
                     "userGroupAccesses": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "EVENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "UghLXVwT6jb",
-                    "offsetPeriods": 0,
+                    "id": "iFRv555boYF",
+                    "offsetPeriodType": "Monthly",
+                    "offsetPeriods": -3,
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -6129,13 +6129,12 @@
                 {
                     "analyticsPeriodBoundaryType": "BEFORE_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
-                    "boundaryTarget": "ENROLLMENT_DATE",
+                    "boundaryTarget": "EVENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "ktvCJfTj9jc",
-                    "offsetPeriodType": "Quarterly",
-                    "offsetPeriods": -1,
+                    "id": "ftNgNiXe9sq",
+                    "offsetPeriods": 0,
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -6148,12 +6147,13 @@
                 {
                     "analyticsPeriodBoundaryType": "BEFORE_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
-                    "boundaryTarget": "EVENT_DATE",
+                    "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "ftNgNiXe9sq",
-                    "offsetPeriods": 0,
+                    "id": "ktvCJfTj9jc",
+                    "offsetPeriodType": "Quarterly",
+                    "offsetPeriods": -1,
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -6357,15 +6357,14 @@
                     "userGroupAccesses": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "EVENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "Wy5uzxR1hzo",
-                    "offsetPeriodType": "Monthly",
-                    "offsetPeriods": -3,
+                    "id": "i9guA2rIyZx",
+                    "offsetPeriods": 0,
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -6376,14 +6375,15 @@
                     "userGroupAccesses": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "EVENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "i9guA2rIyZx",
-                    "offsetPeriods": 0,
+                    "id": "Wy5uzxR1hzo",
+                    "offsetPeriodType": "Monthly",
+                    "offsetPeriods": -3,
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -6542,6 +6542,24 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
+                    "analyticsPeriodBoundaryType": "BEFORE_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "PwhxViHwCCZ",
+                    "offsetPeriods": 0,
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
                     "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "EVENT_DATE",
@@ -6568,24 +6586,6 @@
                     "favorite": false,
                     "favorites": [],
                     "id": "wVzJZuUsss9",
-                    "offsetPeriods": 0,
-                    "sharing": {
-                        "external": false,
-                        "userGroups": {},
-                        "users": {}
-                    },
-                    "translations": [],
-                    "userAccesses": [],
-                    "userGroupAccesses": []
-                },
-                {
-                    "analyticsPeriodBoundaryType": "BEFORE_START_OF_REPORTING_PERIOD",
-                    "attributeValues": [],
-                    "boundaryTarget": "EVENT_DATE",
-                    "externalAccess": false,
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "PwhxViHwCCZ",
                     "offsetPeriods": 0,
                     "sharing": {
                         "external": false,
@@ -6764,15 +6764,14 @@
                     "userGroupAccesses": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "EVENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "jFt83AZA6e7",
-                    "offsetPeriodType": "Monthly",
-                    "offsetPeriods": -3,
+                    "id": "lyKNFaFlFfd",
+                    "offsetPeriods": 0,
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -6783,14 +6782,15 @@
                     "userGroupAccesses": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "EVENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "lyKNFaFlFfd",
-                    "offsetPeriods": 0,
+                    "id": "jFt83AZA6e7",
+                    "offsetPeriodType": "Monthly",
+                    "offsetPeriods": -3,
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -8920,7 +8920,7 @@
             "favorite": false,
             "id": "pMIglSEqPGS",
             "ignoreOverdueEvents": false,
-            "lastUpdated": "2022-09-23T09:07:30.772",
+            "lastUpdated": "2022-09-23T16:24:14.537",
             "maxTeiCountToReturn": 5,
             "minAttributesRequiredToSearch": 1,
             "name": "Hypertension Registry",
@@ -9559,7 +9559,7 @@
             "userAccesses": [],
             "userGroupAccesses": [],
             "userRoles": [],
-            "version": 69,
+            "version": 70,
             "withoutRegistration": false
         }
     ],
@@ -11420,12 +11420,12 @@
             "dataElementDimensions": [],
             "dataElementGroupSetDimensions": [],
             "digitGroupSeparator": "SPACE",
-            "displayDensity": "COMFORTABLE",
+            "displayDensity": "COMPACT",
             "externalAccess": false,
             "favorite": false,
             "filterDimensions": [],
             "filters": [],
-            "fontSize": "NORMAL",
+            "fontSize": "SMALL",
             "fontStyle": {},
             "hideEmptyColumns": false,
             "hideEmptyRowItems": "NONE",
@@ -11438,6 +11438,8 @@
             "legend": {
                 "hidden": false
             },
+            "legendDisplayStrategy": "FIXED",
+            "legendDisplayStyle": "FILL",
             "name": "HTN: BP Rates Last Month",
             "noSpaceBetweenColumns": false,
             "numberType": "VALUE",
@@ -11512,6 +11514,10 @@
             "rowTotals": false,
             "rows": [],
             "series": [
+                {
+                    "axis": 0,
+                    "dimensionItem": "LAST_MONTH"
+                },
                 {
                     "axis": 0,
                     "dimensionItem": "LAST_MONTH"
@@ -13619,6 +13625,22 @@
                 {
                     "axis": 0,
                     "dimensionItem": "qi9pE262Xhm"
+                },
+                {
+                    "axis": 0,
+                    "dimensionItem": "ZOEEN8WKTFa"
+                },
+                {
+                    "axis": 0,
+                    "dimensionItem": "t1q5qZc6WGC"
+                },
+                {
+                    "axis": 0,
+                    "dimensionItem": "vkEKnjaIauH"
+                },
+                {
+                    "axis": 0,
+                    "dimensionItem": "qi9pE262Xhm"
                 }
             ],
             "sharing": {
@@ -13702,6 +13724,8 @@
             "legend": {
                 "hidden": false
             },
+            "legendDisplayStrategy": "FIXED",
+            "legendDisplayStyle": "FILL",
             "name": "HTN: Registrations and Visits last 3 months",
             "noSpaceBetweenColumns": false,
             "numberType": "VALUE",
@@ -13727,7 +13751,7 @@
                 "last2SixMonths": false,
                 "last30Days": false,
                 "last3Days": false,
-                "last3Months": true,
+                "last3Months": false,
                 "last4BiWeeks": false,
                 "last4Quarters": false,
                 "last4Weeks": false,
@@ -13742,7 +13766,7 @@
                 "lastBiWeek": false,
                 "lastBimonth": false,
                 "lastFinancialYear": false,
-                "lastMonth": false,
+                "lastMonth": true,
                 "lastQuarter": false,
                 "lastSixMonth": false,
                 "lastWeek": false,
@@ -13776,6 +13800,10 @@
             "rowTotals": false,
             "rows": [],
             "series": [
+                {
+                    "axis": 0,
+                    "dimensionItem": "LAST_3_MONTHS"
+                },
                 {
                     "axis": 0,
                     "dimensionItem": "LAST_3_MONTHS"
