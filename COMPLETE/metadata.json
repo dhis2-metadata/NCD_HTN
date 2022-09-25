@@ -5116,7 +5116,7 @@
         "DHIS2Version": "2.36.12",
         "code": "NCD_HTN",
         "description": "Hypertension Registry",
-        "lastUpdated": "20220923T180438",
+        "lastUpdated": "20220925T201107",
         "locale": "en",
         "name": "NCD_HTN_TRK_DHIS2.36.12-en",
         "type": "TRK",
@@ -7018,33 +7018,6 @@
         },
         {
             "attributeValues": [],
-            "content": "Current medications ",
-            "data": "d2:concatenate(#{medAmlodipine},' ', #{medHydrochlorothiazide},' ',#{medLosartan},' ',#{medTelmisartan})",
-            "displayContent": "Current medications ",
-            "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
-            ],
-            "evaluationTime": "ALWAYS",
-            "externalAccess": false,
-            "favorite": false,
-            "id": "f5i25GOGM3c",
-            "location": "indicators",
-            "programRule": {
-                "id": "bA3ktqKj9sW"
-            },
-            "programRuleActionType": "DISPLAYTEXT",
-            "sharing": {
-                "external": false,
-                "userGroups": {},
-                "users": {}
-            },
-            "translations": [],
-            "userAccesses": [],
-            "userGroupAccesses": []
-        },
-        {
-            "attributeValues": [],
             "evaluationEnvironments": [
                 "WEB",
                 "ANDROID"
@@ -7360,6 +7333,33 @@
                 "id": "Q3sHLDE78C9"
             },
             "programRuleActionType": "ASSIGN",
+            "sharing": {
+                "external": false,
+                "userGroups": {},
+                "users": {}
+            },
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+        },
+        {
+            "attributeValues": [],
+            "content": "Medication history: ",
+            "data": "d2:concatenate(#{medAmlodipine},' ', #{medHydrochlorothiazide},' ',#{medLosartan},' ',#{medTelmisartan})",
+            "displayContent": "Medication history: ",
+            "evaluationEnvironments": [
+                "WEB",
+                "ANDROID"
+            ],
+            "evaluationTime": "ALWAYS",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "WbXJVxOqcbq",
+            "location": "indicators",
+            "programRule": {
+                "id": "bA3ktqKj9sW"
+            },
+            "programRuleActionType": "DISPLAYTEXT",
             "sharing": {
                 "external": false,
                 "userGroups": {},
@@ -8189,13 +8189,13 @@
             "externalAccess": false,
             "favorite": false,
             "id": "bA3ktqKj9sW",
-            "name": "List current medications",
+            "name": "List medication history",
             "program": {
                 "id": "pMIglSEqPGS"
             },
             "programRuleActions": [
                 {
-                    "id": "f5i25GOGM3c"
+                    "id": "WbXJVxOqcbq"
                 }
             ],
             "sharing": {
