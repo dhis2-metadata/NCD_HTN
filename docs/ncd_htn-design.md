@@ -20,7 +20,7 @@ The key goal of this package is to improve data timeliness and accuracy, enhance
 
 ### Use Case
 
-![Nigeria HTN User](resources/images/ncd_htn_001.jpg)
+![Nigeria HTN User](resources/images/ncd_htn_001.jpg){ .center width=50% }
 
 The principal end users of this system are care providers at primary health centers who see patients for monthly hypertension services. Since hypertension generally affects a broad proportion of the population, in many contexts care providers have little time to enter detailed data on hypertension patient encounters. Therefore the focus is on collecting a _limited set of data elements_ to produce three key indicators: percent of patients with controlled blood pressure, percent of patients with uncontrolled blood pressure, and percent of patients with missed monthly visits.
 
@@ -158,11 +158,11 @@ The next section highlights total patients registered for hypertension and the %
 
 Below those cards is the Quarterly cohort report, rendered as a bar chart and table. This has a special call-out box to assist with interpretation:
 
-### HTN Quarterly Cohort Report description
+#### HTN Quarterly Cohort Report description
 
 HTN Quarterly Cohort Reports take all the patients registered during a quarter and see the outcome of their visit in the following quarter. For example, patients belonging to the April - June cohort were registered in the January - March quarter, and were expected for a visit in the April - June quarter.
 
-### Definitions
+#### Definitions
 
 * **Hypertension Visits, Total:** The total number of initial or follow-up visits by a hypertensive patient the the facility.
 * (_Quarterly Cohort_) **BP controlled numerator:** The number of patients with a BP <140/90 at their last visit in the quarter after the quarter when they were registered.
