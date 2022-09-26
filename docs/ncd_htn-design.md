@@ -8,7 +8,7 @@ This Hypertension Registry System Design Guide provides an overview of the conce
 
 ### Background
 
-Hypertension  ̶  or elevated blood pressure  ̶  is a serious medical condition that significantly increases the risks of heart, brain, kidney and other diseases. According to the WHO, an estimated 1.28 billion adults aged 30-79 years worldwide have hypertension, most (two-thirds) living in low- and middle-income countries. Only 1 in 5 adults (21%) with hypertension have their blood pressure under control [1].
+Hypertension  ̶  or elevated blood pressure  ̶  is a serious medical condition that significantly increases the risks of heart, brain, kidney and other diseases. According to the WHO, an estimated 1.28 billion adults aged 30-79 years worldwide have hypertension, most (two-thirds) living in low- and middle-income countries. Only 1 in 5 adults (21%) with hypertension have their blood pressure under control [^first].
 
 This package is based on a DHIS2 Tracker for hypertension care configured and deployed in Kano and Ogun states in Nigeria in 2021-2022, in collaboration between the Federal Ministry of Health Nigeria, National Primary Health Care Development Agency, HISP-Nigeria, WHO and Resolve to Save Lives. As of July 2022, over 16,000 hypertensive patients are being managed across over 104 primary healthcare facilities with this tool. The program is based on the design and principles of the [Simple App](https://www.simple.org/), a custom mobile application developed by RTSL and deployed in 4 countries, enrolling over 2 million patients in hypertension care as of April 2022. Indicators for the package were derived from the HEARTS Technical package for hypertension management.
 
@@ -93,7 +93,7 @@ _BMI Measures_ section captures the patient’s height and weight. Entering unli
 
 The Body Mass Index (BMI) is then autocalculated, as is a standard classification of BMI into Underweight, Normal, Overweight, Obese, and Severe Obesity.
 
-These classifications are based on WHO standards for Obesity and Overweight (overweight is a BMI greater than or equal to 25; obesity is a BMI greater than or equal to 30) [2]. Complementing those definitions at the lower and upper extremes are the UK’s NHS standards for severe obesity (BMI above 40) and underweight [BMI under 18.5](3).
+These classifications are based on WHO standards for Obesity and Overweight (overweight is a BMI greater than or equal to 25; obesity is a BMI greater than or equal to 30)[^second]. Complementing those definitions at the lower and upper extremes are the UK’s NHS standards for severe obesity (BMI above 40) and underweight (BMI under 18.5)[^third].
 
 After entered, the patient’s latest recorded BMI is displayed in the Program Indicators Widget.
 
@@ -204,8 +204,8 @@ In the Android settings app, different settings for Android app appearance and v
 
 ## References
 
-1 - World Health Organization (25/08/2021). Hypertension Key Facts. Retrieved from: <https://www.who.int/news-room/fact-sheets/detail/hypertension> (Accessed on 19/09/2022)
+[^first]: 1 - World Health Organization (25/08/2021). Hypertension Key Facts. Retrieved from: <https://www.who.int/news-room/fact-sheets/detail/hypertension> (Accessed on 19/09/2022)
 
-2 - World Health Organization (09/06/2021). Obesity and Overweight Fact Sheet. Retrieved from:   [https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight](https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight) (Accessed on 19/09/2022)
+[^second]: 2 - World Health Organization (09/06/2021). Obesity and Overweight Fact Sheet. Retrieved from:   [https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight](https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight) (Accessed on 19/09/2022)
 
-3 - National Health Service (16/05/2022). Overview: Obesity. Retrieved from: [https://www.nhs.uk/conditions/obesity/](https://www.nhs.uk/conditions/obesity/) (Accessed on 19/09/2022)
+[^third]: 3 - National Health Service (16/05/2022). Overview: Obesity. Retrieved from: [https://www.nhs.uk/conditions/obesity/](https://www.nhs.uk/conditions/obesity/) (Accessed on 19/09/2022)
