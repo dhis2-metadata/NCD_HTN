@@ -2,7 +2,7 @@
 
 All released packages contain a label package with very useful information which needs to be checked prior installation.
 
-```{json}
+```json
 "package": {
       "DHIS2Build": "58094d2",
       "DHIS2Version": "2.33.9",
