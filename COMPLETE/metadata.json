@@ -1869,7 +1869,16 @@
                 "external": false,
                 "owner": "vUeLeQMSwhN",
                 "public": "--------",
-                "userGroups": {},
+                "userGroups": {
+                    "no2QanpZgiI": {
+                        "access": "r-------",
+                        "id": "no2QanpZgiI"
+                    },
+                    "olmLfefTfPQ": {
+                        "access": "rw------",
+                        "id": "olmLfefTfPQ"
+                    }
+                },
                 "users": {}
             },
             "translations": [],
@@ -1879,7 +1888,18 @@
                 "username": "package_admin"
             },
             "userAccesses": [],
-            "userGroupAccesses": []
+            "userGroupAccesses": [
+                {
+                    "access": "r-------",
+                    "id": "no2QanpZgiI",
+                    "userGroupUid": "no2QanpZgiI"
+                },
+                {
+                    "access": "rw------",
+                    "id": "olmLfefTfPQ",
+                    "userGroupUid": "olmLfefTfPQ"
+                }
+            ]
         }
     ],
     "dataElementGroups": [
@@ -5071,7 +5091,7 @@
         "DHIS2Version": "2.37.7.1",
         "code": "NCD_HTN",
         "description": "Hypertension Registry",
-        "lastUpdated": "20220926T092136",
+        "lastUpdated": "20220926T122047",
         "locale": "en",
         "name": "NCD_HTN_TRK_DHIS2.37.7.1-en",
         "type": "TRK",
@@ -8841,7 +8861,20 @@
                 "external": false,
                 "owner": "vUeLeQMSwhN",
                 "public": "--------",
-                "userGroups": {},
+                "userGroups": {
+                    "no2QanpZgiI": {
+                        "access": "r-r-----",
+                        "id": "no2QanpZgiI"
+                    },
+                    "olmLfefTfPQ": {
+                        "access": "rwrw----",
+                        "id": "olmLfefTfPQ"
+                    },
+                    "qSSuhs65xMP": {
+                        "access": "r-rw----",
+                        "id": "qSSuhs65xMP"
+                    }
+                },
                 "users": {}
             },
             "sortOrder": 1,
@@ -8853,7 +8886,23 @@
                 "username": "package_admin"
             },
             "userAccesses": [],
-            "userGroupAccesses": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rwrw----",
+                    "id": "olmLfefTfPQ",
+                    "userGroupUid": "olmLfefTfPQ"
+                },
+                {
+                    "access": "r-r-----",
+                    "id": "no2QanpZgiI",
+                    "userGroupUid": "no2QanpZgiI"
+                },
+                {
+                    "access": "r-rw----",
+                    "id": "qSSuhs65xMP",
+                    "userGroupUid": "qSSuhs65xMP"
+                }
+            ],
             "validationStrategy": "ON_COMPLETE"
         }
     ],
@@ -9492,7 +9541,20 @@
                 "external": false,
                 "owner": "vUeLeQMSwhN",
                 "public": "rwrw----",
-                "userGroups": {},
+                "userGroups": {
+                    "no2QanpZgiI": {
+                        "access": "r-r-----",
+                        "id": "no2QanpZgiI"
+                    },
+                    "olmLfefTfPQ": {
+                        "access": "rwrw----",
+                        "id": "olmLfefTfPQ"
+                    },
+                    "qSSuhs65xMP": {
+                        "access": "r-rw----",
+                        "id": "qSSuhs65xMP"
+                    }
+                },
                 "users": {}
             },
             "shortName": "Hypertension Registry",
@@ -9512,7 +9574,23 @@
                 "username": "package_admin"
             },
             "userAccesses": [],
-            "userGroupAccesses": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rwrw----",
+                    "id": "olmLfefTfPQ",
+                    "userGroupUid": "olmLfefTfPQ"
+                },
+                {
+                    "access": "r-r-----",
+                    "id": "no2QanpZgiI",
+                    "userGroupUid": "no2QanpZgiI"
+                },
+                {
+                    "access": "r-rw----",
+                    "id": "qSSuhs65xMP",
+                    "userGroupUid": "qSSuhs65xMP"
+                }
+            ],
             "userRoles": [],
             "version": 70,
             "withoutRegistration": false
@@ -11238,7 +11316,89 @@
             "userGroupAccesses": []
         }
     ],
-    "userGroups": [],
+    "userGroups": [
+        {
+            "attributeValues": [],
+            "code": "NCD_HTN_ACCESS",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "no2QanpZgiI",
+            "managedByGroups": [],
+            "managedGroups": [],
+            "name": "HTN Access",
+            "publicAccess": "rw------",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "rw------",
+                "userGroups": {},
+                "users": {}
+            },
+            "translations": [],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "package admin",
+                "username": "package_admin"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [],
+            "users": []
+        },
+        {
+            "attributeValues": [],
+            "code": "NCD_HTN_ADMIN",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "olmLfefTfPQ",
+            "managedByGroups": [],
+            "managedGroups": [],
+            "name": "HTN Admin",
+            "publicAccess": "rw------",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "rw------",
+                "userGroups": {},
+                "users": {}
+            },
+            "translations": [],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "package admin",
+                "username": "package_admin"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [],
+            "users": []
+        },
+        {
+            "attributeValues": [],
+            "code": "NCD_HTN_CAPTURE",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "qSSuhs65xMP",
+            "managedByGroups": [],
+            "managedGroups": [],
+            "name": "HTN Data Capture",
+            "publicAccess": "rw------",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "rw------",
+                "userGroups": {},
+                "users": {}
+            },
+            "translations": [],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "package admin",
+                "username": "package_admin"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [],
+            "users": []
+        }
+    ],
     "userRoles": [
         {
             "attributeValues": [],
@@ -13494,7 +13654,16 @@
                 "external": false,
                 "owner": "vUeLeQMSwhN",
                 "public": "--------",
-                "userGroups": {},
+                "userGroups": {
+                    "no2QanpZgiI": {
+                        "access": "r-------",
+                        "id": "no2QanpZgiI"
+                    },
+                    "olmLfefTfPQ": {
+                        "access": "r-------",
+                        "id": "olmLfefTfPQ"
+                    }
+                },
                 "users": {}
             },
             "showData": true,
@@ -13513,7 +13682,18 @@
                 "username": "package_admin"
             },
             "userAccesses": [],
-            "userGroupAccesses": [],
+            "userGroupAccesses": [
+                {
+                    "access": "r-------",
+                    "id": "no2QanpZgiI",
+                    "userGroupUid": "no2QanpZgiI"
+                },
+                {
+                    "access": "r-------",
+                    "id": "olmLfefTfPQ",
+                    "userGroupUid": "olmLfefTfPQ"
+                }
+            ],
             "userOrganisationUnit": true,
             "userOrganisationUnitChildren": false,
             "userOrganisationUnitGrandChildren": false,
