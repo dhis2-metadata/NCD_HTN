@@ -5111,13 +5111,13 @@
                     "id": "qDVxzO0Ilkq"
                 },
                 {
+                    "id": "nJq8IMv65H7"
+                },
+                {
                     "id": "wodvj4fzKEH"
                 },
                 {
                     "id": "IsHB0SRSa0M"
-                },
-                {
-                    "id": "nJq8IMv65H7"
                 }
             ],
             "publicAccess": "rw------",
@@ -5897,6 +5897,23 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "gyqI6UjVgi8",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
                     "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "EVENT_DATE",
@@ -5940,23 +5957,6 @@
                     "id": "gSY2zzPdMQb",
                     "offsetPeriodType": "Quarterly",
                     "offsetPeriods": -1,
-                    "sharing": {
-                        "external": false,
-                        "userGroups": {},
-                        "users": {}
-                    },
-                    "translations": [],
-                    "userAccesses": [],
-                    "userGroupAccesses": []
-                },
-                {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
-                    "attributeValues": [],
-                    "boundaryTarget": "EVENT_DATE",
-                    "externalAccess": false,
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "gyqI6UjVgi8",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -6408,6 +6408,23 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "zA2kNAG8IQ5",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
                     "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "EVENT_DATE",
@@ -6451,23 +6468,6 @@
                     "id": "EDRCA1f7zDv",
                     "offsetPeriodType": "Quarterly",
                     "offsetPeriods": -1,
-                    "sharing": {
-                        "external": false,
-                        "userGroups": {},
-                        "users": {}
-                    },
-                    "translations": [],
-                    "userAccesses": [],
-                    "userGroupAccesses": []
-                },
-                {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
-                    "attributeValues": [],
-                    "boundaryTarget": "EVENT_DATE",
-                    "externalAccess": false,
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "zA2kNAG8IQ5",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -6611,6 +6611,23 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "vpoZjRtUXPL",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
                     "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "EVENT_DATE",
@@ -6654,23 +6671,6 @@
                     "id": "r5D3fEr66JI",
                     "offsetPeriodType": "Quarterly",
                     "offsetPeriods": -1,
-                    "sharing": {
-                        "external": false,
-                        "userGroups": {},
-                        "users": {}
-                    },
-                    "translations": [],
-                    "userAccesses": [],
-                    "userGroupAccesses": []
-                },
-                {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
-                    "attributeValues": [],
-                    "boundaryTarget": "EVENT_DATE",
-                    "externalAccess": false,
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "vpoZjRtUXPL",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
