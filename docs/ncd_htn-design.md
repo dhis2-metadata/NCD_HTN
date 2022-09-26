@@ -62,9 +62,9 @@ Four fields are mandatory to enter during registration, noted with *
 
 * **Was the patient treated for hypertension in the past?** The care provider will be prompted to ask if this is a new diagnosis or if the patient has been previously treated.
 
-* **Patient status**. During registration, the patient is assumed to have an ACTIVE status, therefore this value is autofilled.
+* **Patient status**. During registration, the patient is assumed to have an ACTIVE status, therefore this value is autofilled. See [Closing the Record](#closing-the-record) for more details.
 
-During registration the patient is also assumed to have hypertension, so this attribute is also autofilled.
+During registration the patient is also assumed to have hypertension, so this attribute is also autofilled. (See [Rationale for Program Structure](#rationale-for-program-structure) for details).
 
 Information for the patient’s supporter is also entered to assist with lost to follow up investigation.
 
