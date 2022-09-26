@@ -5059,7 +5059,7 @@
         "DHIS2Version": "2.38.1.1",
         "code": "NCD_HTN",
         "description": "Hypertension Registry",
-        "lastUpdated": "20220925T230759",
+        "lastUpdated": "20220926T092203",
         "locale": "en",
         "name": "NCD_HTN_TRK_DHIS2.38.1.1-en",
         "type": "TRK",
@@ -13214,11 +13214,7 @@
             "optionalAxes": [],
             "organisationUnitGroupSetDimensions": [],
             "organisationUnitLevels": [],
-            "organisationUnits": [
-                {
-                    "id": "<OU_ROOT_UID>"
-                }
-            ],
+            "organisationUnits": [],
             "parentGraphMap": {},
             "percentStackedValues": false,
             "periods": [],
@@ -13294,7 +13290,6 @@
             },
             "sharing": {
                 "external": false,
-                "owner": "vUeLeQMSwhN",
                 "public": "--------",
                 "userGroups": {},
                 "users": {}
@@ -13309,14 +13304,9 @@
             "topLimit": 0,
             "translations": [],
             "type": "SINGLE_VALUE",
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "package admin",
-                "username": "package_admin"
-            },
             "userAccesses": [],
             "userGroupAccesses": [],
-            "userOrganisationUnit": false,
+            "userOrganisationUnit": true,
             "userOrganisationUnitChildren": false,
             "userOrganisationUnitGrandChildren": false,
             "yearlySeries": []
