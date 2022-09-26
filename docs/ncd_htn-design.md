@@ -204,8 +204,8 @@ In the Android settings app, different settings for Android app appearance and v
 
 ## References
 
-[^first]: 1 - World Health Organization (25/08/2021). Hypertension Key Facts. Retrieved from: <https://www.who.int/news-room/fact-sheets/detail/hypertension> (Accessed on 19/09/2022)
+[^first]: World Health Organization (25/08/2021). Hypertension Key Facts. Retrieved from: <https://www.who.int/news-room/fact-sheets/detail/hypertension> (Accessed on 19/09/2022)
 
-[^second]: 2 - World Health Organization (09/06/2021). Obesity and Overweight Fact Sheet. Retrieved from:   [https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight](https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight) (Accessed on 19/09/2022)
+[^second]: World Health Organization (09/06/2021). Obesity and Overweight Fact Sheet. Retrieved from:   [https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight](https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight) (Accessed on 19/09/2022)
 
-[^third]: 3 - National Health Service (16/05/2022). Overview: Obesity. Retrieved from: [https://www.nhs.uk/conditions/obesity/](https://www.nhs.uk/conditions/obesity/) (Accessed on 19/09/2022)
+[^third]: National Health Service (16/05/2022). Overview: Obesity. Retrieved from: [https://www.nhs.uk/conditions/obesity/](https://www.nhs.uk/conditions/obesity/) (Accessed on 19/09/2022)
