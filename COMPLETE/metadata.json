@@ -5116,7 +5116,7 @@
         "DHIS2Version": "2.36.12",
         "code": "NCD_HTN",
         "description": "Hypertension Registry",
-        "lastUpdated": "20220925T201107",
+        "lastUpdated": "20220926T111751",
         "locale": "en",
         "name": "NCD_HTN_TRK_DHIS2.36.12-en",
         "type": "TRK",
@@ -13196,17 +13196,15 @@
             "legend": {
                 "hidden": false
             },
+            "legendDisplayStrategy": "FIXED",
+            "legendDisplayStyle": "FILL",
             "name": "HTN: Patient Transfers, Total",
             "noSpaceBetweenColumns": false,
             "numberType": "VALUE",
             "optionalAxes": [],
             "organisationUnitGroupSetDimensions": [],
             "organisationUnitLevels": [],
-            "organisationUnits": [
-                {
-                    "id": "<OU_ROOT_UID>"
-                }
-            ],
+            "organisationUnits": [],
             "parentGraphMap": {},
             "percentStackedValues": false,
             "periods": [],
@@ -13299,7 +13297,7 @@
             },
             "userAccesses": [],
             "userGroupAccesses": [],
-            "userOrganisationUnit": false,
+            "userOrganisationUnit": true,
             "userOrganisationUnitChildren": false,
             "userOrganisationUnitGrandChildren": false,
             "yearlySeries": []
