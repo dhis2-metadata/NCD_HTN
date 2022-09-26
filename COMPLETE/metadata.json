@@ -5136,7 +5136,7 @@
         "DHIS2Version": "2.36.12",
         "code": "NCD_HTN",
         "description": "Hypertension Registry",
-        "lastUpdated": "20220926T141942",
+        "lastUpdated": "20220926T153202",
         "locale": "en",
         "name": "NCD_HTN_TRK_DHIS2.36.12-en",
         "type": "TRK",
