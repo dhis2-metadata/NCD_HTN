@@ -1,20 +1,5 @@
 # Hypertension Registry - Installation Guide { #ncd-htn-installation }
 
-All released packages contain a label package with very useful information which needs to be checked prior installation.
-
-```json
-"package": {
-      "DHIS2Build": "58094d2",
-      "DHIS2Version": "2.33.9",
-      "code": "HEALTH-AREA_INTERVENTION",
-      "lastUpdated": "20210826T122409",
-      "locale": "en",
-      "name": "HEALTH-AREA_INTERVENTION_TRK_1.X.X_DHIS2.33.9-en",
-      "type": "TRACKER",
-      "version": "X.X.X"
- },
-```
-
 ## Installation
 
 Installation of the module consists of several steps:
@@ -72,6 +57,16 @@ Like indicator types, you may have already existing tracked entity types in your
 |--|--|--|
 |Person|MCPQUTHX1Ze|../api/trackedEntityTypes.json?filter=name:eq:Person|
 
+#### Predictors using Organisation Unit Level
+
+Predictors, if included in a package, may contain a placeholder for an Organisation Unit Level (OUL). The API endpoint for them would be: ../api/predictors?filter=organisationUnitLevels:!null
+
+The placeholder label example is <OU_LEVEL_DISTRICT_UID>. Before attempting to import the package you need to replace this label with the UID of the equivalent Org Unit Level in your system.
+
+#### Visualizations using Root Organisation Unit
+
+Visualizations, if included in a package, may contain a placeholder for a Root Organisation Unit. The placeholder label example is <OU_ROOT_UID>. Before attempting to import the package you need to replace this label with the UID of the Root Organisation Unit in your system.
+
 ## Importing metadata
 
 The .json metadata file is imported through the [Import/Export](https://docs.dhis2.org/en/use/user-guides/dhis-core-version-master/maintaining-the-system/importexport-app.html) app of DHIS2. It is advisable to use the "dry run" feature to identify issues before attempting to do an actual import of the metadata. If "dry run" reports any issues or conflicts, see the [import conflicts](https://who.dhis2.org/documentation/installation_guide_complete.html#handling-import-conflicts) section below. If the "dry run"/"validate" import works without error, attempt to import the metadata. If the import succeeds without any errors, you can proceed to [configure](https://who.dhis2.org/documentation/installation_guide_complete.html#configuration) the module. In some cases, import conflicts or issues are not shown during the "dry run", but appear when the actual import is attempted. In this case, the import summary will list any errors that need to be resolved.
@@ -100,6 +95,26 @@ A third and more complicated approach is to modify the .json file to re-use exis
 * the approach does not work for all types of objects. In particular, certain types of objects have dependencies which are complicated to solve in this way, for example related to disaggregations.
 * future updates to the configuration package will be complicated.
 
+### Known Import Issues
+
+1. Sort order for options do not match
+  Symptoms: import fails with no errors. Please check the dhis.log in your server/instance. If you see the following error:
+  
+  ```* ERROR 2021-07-15 10:05:58,018 java.lang.NullPointerException
+             at
+     org.hisp.dhis.dxf2.metadata.objectbundle.hooks.OptionSetObjectBundleHook.lambda$updateOption$0(OptionSetObjectBundleHook.java:71)
+             at java.lang.Iterable.forEach(Iterable.java:75)
+  ```
+
+  The issue is related to sortOrder of options in an optionSet included in the package not matching the sortOrder of same options in the instance/server.
+2. Duplicate key value violates unique constraint
+  Symptoms: import fails with no errors. Please check the dhis.log in your server/instance. If you see the following error:
+
+  ```* ERROR 2021-07-15 10:12:20,272 ERROR: duplicate key value violates unique constraint "uk_myox13mr8r27oxl7ts33ntpd5"
+    Detail: Key (uid)=(YYtAbckt77l) already exists. (SqlExceptionHelper.java [taskScheduler-23])
+     * ERROR 2021-07-15 10:12:20,303 javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+  ```
+
 ## Additional configuration
 
 Once all metadata has been successfully imported, there are a few steps that need to be taken before the module is functional.
@@ -123,7 +138,7 @@ By default the following is assigned to these user groups
 
 |Object|User Group|||
 |--|--|--|--|
-||_COVID19 access_|_COVID19 admin_|_COVID19 data capture_|
+||_Access_|_Admin_|_Data capture_|
 |_*Tracked entity type*_|Metadata : can view <br> Data: can view|Metadata : can edit and view <br> Data: can view|Metadata : can view <br> Data: can capture and view|
 |_*Program*_|Metadata : can view <br> Data: can view|Metadata : can edit and view <br> Data: can view|Metadata : can view <br> Data: can capture and view|
 |_*Program Stages*_|Metadata : can view <br> Data: can view|Metadata : can edit and view <br> Data: can view|Metadata : can view <br> Data: can capture and view|
