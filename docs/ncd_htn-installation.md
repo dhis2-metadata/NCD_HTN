@@ -57,11 +57,6 @@ Like indicator types, you may have already existing tracked entity types in your
 |--|--|--|
 |Person|MCPQUTHX1Ze|../api/trackedEntityTypes.json?filter=name:eq:Person|
 
-#### Predictors using Organisation Unit Level
-
-Predictors, if included in a package, may contain a placeholder for an Organisation Unit Level (OUL). The API endpoint for them would be: ../api/predictors?filter=organisationUnitLevels:!null
-
-The placeholder label example is <OU_LEVEL_DISTRICT_UID>. Before attempting to import the package you need to replace this label with the UID of the equivalent Org Unit Level in your system.
 
 #### Visualizations using Root Organisation Unit
 
@@ -130,9 +125,9 @@ First, you will have to use the *Sharing* functionality of DHIS2 to configure wh
 
 There are three user groups that come with the package:
 
-* COVID19 access
-* COVID19 admin
-* COVID 19 data capture
+* HTN access
+* HTN admin
+* HTN data capture
 
 By default the following is assigned to these user groups
 
