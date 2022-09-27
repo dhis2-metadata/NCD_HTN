@@ -20,7 +20,7 @@ The key goal of this package is to improve data timeliness and accuracy, enhance
 
 ### Use Case
 
-![Nigeria HTN User](resources/images/ncd_htn_001.jpg){ width=50% }
+![Nigeria HTN User](resources/images/ncd_htn_001.jpg){ .center width=50% }
 
 The principal end users of this system are care providers at primary health centers who see patients for monthly hypertension services. Since hypertension generally affects a broad proportion of the population, in many contexts care providers have little time to enter detailed data on hypertension patient encounters. Therefore the focus is on collecting a _limited set of data elements_ to produce three key indicators: percent of patients with controlled blood pressure, percent of patients with uncontrolled blood pressure, and percent of patients with missed monthly visits.
 
