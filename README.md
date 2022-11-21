@@ -1,2 +1,1 @@
-# NCD_HTN
-Hypertension Registry
+# Hypertension Registry
