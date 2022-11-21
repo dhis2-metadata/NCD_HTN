@@ -1,4 +1,4 @@
-# Hypertension Control Package
+# Hypertension Control Package { #ncd-htn-release_note }
 
 ## 1.0.0
 
